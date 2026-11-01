@@ -1,4 +1,4 @@
-# DX3D – a DirectX 11 game engine from scratch
+# DirectX11 Game Engine test
 
 A small C++20 engine built on **Direct3D 11** and the **Win32 API**, written as a learning project to understand
 what sits underneath a game engine: windowing, the GPU pipeline, resource management and the 3D math that connects them.
@@ -99,20 +99,6 @@ These match Direct3D's defaults, so matrices are uploaded to the GPU without tra
 - triangles are front-facing when their vertices are **clockwise** as seen from outside (D3D11's default), and
   back faces are culled
 - `Matrix4x4` is built from four `Vector4` rows and is exactly 64 bytes (checked with a `static_assert`)
-
-## Known limitations
-
-- The window is fixed-size; swap chain resizing is not implemented yet
-- Animation pauses while the title bar is held, because Windows runs its own modal loop during a window drag
-- No input handling yet, and the scene is a single hard-coded mesh
-
-## Ideas for next steps
-
-- Camera controls (keyboard and mouse)
-- Normals and basic lighting
-- Window resizing (`ResizeBuffers` and viewport update)
-- Loading meshes from files (OBJ), and textures
-- A small scene / entity layer
 
 ## License
 
