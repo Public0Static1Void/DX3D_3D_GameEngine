@@ -103,3 +103,7 @@ These match Direct3D's defaults, so matrices are uploaded to the GPU without tra
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+## Credits
+
+[Tutorial from PardCode](https://www.youtube.com/watch?v=XeLyqELshHM&list=PLv8DnRaQOs5-ST_VDqgbbMRtzMtpK36Hy&index=1)
